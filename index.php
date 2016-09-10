@@ -1,5 +1,7 @@
 <html>
-    <link rel="stylesheet" href="css/materialize.css">
+    <link rel=stylesheet href="css/materialize.min.css">
+	<link rel=stylesheet href="css/materialize.css">
+	<link rel=stylesheet href="css/main.css">
  <head>
    <title>Hello World</title>
  </head>
@@ -19,7 +21,7 @@
                         Párrafo. Haz clic aquí para agregar tu propio texto y editar.
                         Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.
                      </p>
-                     <div class="row" style=" margin:3%">
+                     <div class="row" >
                      <a href="https://www.facebook.com/PinkFeelin/"><img class="responsive-img" src="images/facebook.png" height="15%" width="15%"></a>
                      <a href="https://plus.google.com/"><img class="responsive-img" src="images/googleplus.png" height="15%" width="15%"></a>
                      <a href="https://es.pinterest.com/"><img class="responsive-img" src="images/pinterest.png" height="15%" width="15%"></a>
@@ -32,10 +34,10 @@
                          <div class="row">
                             <div class="input-field col s12">
                               <input id="email" type="email" class="validate">
-                              <label class="left-align"for="email">Email</label>
+                              <label class="left-align" for="email">Email</label>
                             </div>
                              <div>
-                             <button class="btn waves-effect waves-light" type="submit" name="action">Suscribete Ya!
+                             <button class="btn waves-effect waves-light" style="margin-top:30px; background-color:#f48fb1;" type="submit" name="action">Suscribete Ya!
                                 <i class="material-icons right">send</i>
                               </button>
                              </div>
