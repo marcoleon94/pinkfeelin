@@ -3,12 +3,22 @@
  <head>
    <title>Hello World</title>
  </head>
- <body class="pink lighten-5">
+ <body>
+     <?php require('menu.php');?>
      <div class="container">
-     <div class="pink accent-1 center s6">
-        <h2>Pink Feeli'n</h2>
+         <div class="center">
+            <h2>El Detalle Perfecto</h2>
+            <div class="divider"></div>
+             <div class="row">
+                 <div class="col s9">
+                     <p> blajdvlkajsfdlkasjdfalsfjalsjfkalsjflkasjdfasjkdflakjsdflkasjdfakjdlakjdflkaksjdflaksjdflaksdjflkasjdflkasjdfkaljdfakjdalksjdflaksjfdlakjsfalksjf</p>
+                 </div>
+                 <div class="col s3"> 
+                     asdfjalñsfdañljflakshfjaksdhfakjshflkashflkasjhfkaljhfaksjlhsafasaksdfafakhfkahdfkadhfkadhfakjhfklahdfaksjhdfkajsdhflkasjhfkljashfaljkshfdklajshf
+                 </div>
+                 
+             </div>
+         </div>
      </div>
-     </div>
-     
  </body>
 </html>
