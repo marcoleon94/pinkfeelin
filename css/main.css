@@ -14,6 +14,17 @@
      color: #f48fb1;
      font-style: normal;
    }
+
+   .input-field input[type=radio]:focus + label {
+     color: #f48fb1;
+     font-style: normal;
+   }
+
+   .input-field input[type=date]:focus + label {
+     color: #f48fb1;
+     font-style: normal;
+   }
+   
    /* label underline focus color */
    .input-field input[type=text]:focus {
      border-bottom: 1px solid #f48fb1;
