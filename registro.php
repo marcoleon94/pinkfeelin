@@ -30,6 +30,18 @@
         <form>
         	<div class="row">
 
+          <div class="input-field col s4">
+              <i class="material-icons prefix">account_circle</i>
+                <input type="text" id="nombre" class="validate" >
+                <label for="nombre" class="left-align">Nombre</label>
+            </div>
+
+            <div class="input-field col s8">
+              <i class="material-icons prefix">account_circle</i>
+                <input type="text" id="apellido" class="validate" >
+                <label for="apellido" class="left-align">Apellidos</label>
+            </div>
+
             <div class="input-field col s12">
               <i class="material-icons prefix">account_circle</i>
                 <input type="text" id="email" class="validate" >
@@ -41,25 +53,25 @@
 	        			<label for="usuario" class="left-align">Usuario</label>
 	        	</div>
 
-	        	<div class="input-field col s12">
+	        	<div class="input-field col s6">
 	        		<i class="material-icons prefix">lock</i>
 	        		<input type="password" id="contra" class="validate">
 	        		<label for="contra" class="left-align" ">Contraseña</label>
 	        	</div>
-            <div class="input-field col s12">
+            <div class="input-field col s6">
               <i class="material-icons prefix">lock</i>
               <input type="password" id="contrar" class="validate">
               <label for="contrar" class="left-align" ">Repetir Contraseña</label>
             </div>
 
-            <div class="input-field col s12">
+            <div class="input-field col s6">
               <i class="material-icons prefix">lock</i>              
               <input type="date" class="datepicker" id="fecha"> 
               <label for="fecha" class="left-align">Dia de Nacimiento</label>
             </div>
 
 
-            <div class="input-field col s12">
+            <div class="input-field col s6">
             <label>Sexo</label><br>
                 <p>
                   <input class="with-gap" name="sexo" type="radio" id="hombre" />
@@ -72,7 +84,7 @@
               
             </div>
 	        				
-	        	<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px; background-color:#f48fb1;">Registrar
+	        	<button class="btn waves-effect waves-light right" type="submit" name="action" style="margin-top:30px;">Registrar
     					<i class="material-icons right">input</i>
   					</button>
 

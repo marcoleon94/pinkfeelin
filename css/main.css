@@ -20,10 +20,12 @@
      font-style: normal;
    }
 
-   .input-field input[type=date]:focus + label {
+   .input-field input[type=date]:focus:not([readonly]) + label {
      color: #f48fb1;
      font-style: normal;
    }
+
+   
    
    /* label underline focus color */
    .input-field input[type=text]:focus {
