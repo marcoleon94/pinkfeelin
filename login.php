@@ -1,22 +1,14 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Registro</title>
+	<title>Login</title>
 	<link rel=stylesheet href="css/materialize.min.css">
 	<link rel=stylesheet href="css/materialize.css">
+	<link rel=stylesheet href="css/main.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<style>
-	.input-field label {
-     color: gray;
-   }
-   /* label focus color */
-   .input-field input[type=text]:focus + label {
-     color: #f48fb1;
-   }
-
-</style>
 <body>
+<?php require('menu.php');?>
 
 <div class="page-login">
 	<div class="center">
@@ -31,14 +23,21 @@
         		
 	        			<div class="row">
 	        				<div class="input-field col s12">
+	        					<i class="material-icons prefix">account_circle</i>
 	        					<input type="text" id="usuario" class="validate" >
 	        					<label for="usuario" class="left-align"> Usuario</label>
 	        				</div>
 
 	        				<div class="input-field col s12">
+	        					<i class="material-icons prefix">lock</i>
 	        					<input type="password" id="contra" class="validate">
-	        					<label for="contra" class="left-align" style="color:#f48fb1; ">Contraseña</label>
+	        					<label for="contra" class="left-align" ">Contraseña</label>
 	        				</div>
+	        				
+	        				<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px; background-color:#f48fb1;">Iniciar Sesion
+    							<i class="material-icons right">input</i>
+  							</button>
+
 	        			</div>
         		</form>
         	</div>
