@@ -49,9 +49,38 @@
                 <div class="col s5">
                     <h4 class="bold">Todo lo que necesitas para actualizar tu look.</h4>
                  </div>
+                 <div class="col s1 headerDivider"></div>
+                 <div class="col s6 ">
+                 <p >Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.</p>
+                 </div>
              </div>
-             
+             <div class="row">
+                 <div class="col s9">
+                     <img class="responsive-img" src="images/ofertas.jpg">
+                 </div>
+                 <div class="col s3">
+                    <div class="carousel carousel-slider " data-indicators="true">
+                        <div class="carousel-fixed-item center">
+                          <a class="btn waves-effect red white-text darken-text-2">Ofertas</a>
+                        </div>
+                        <div class="carousel-item black white-text" href="#one!">
+                            <h5 class="italic-text">Oferta de verano</h6>
+                            <h4>GRAN VENTA</h5>
+                            <h4>25% - 50% desc.</h5>
+                        </div>
+                     </div>
+                 </div>
+             </div>
          </div>
      </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    
+    
+    <script>
+        $( document ).ready(function(){
+            $('.carousel.carousel-slider').carousel({full_width: true});
+        });
+    </script>
  </body>
 </html>

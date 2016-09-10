@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <!--<div class="navbar-fixed">-->
+        <div class="navbar-fixed">
         <nav class="pink lighten-3">
             <div class="nav-wrapper">
                  <a href="#!" class="left brand-logo"><img class="responsive-img" src="images/Lips.png" width="4%" height="4%"> Pink Feelin'</a>
@@ -33,7 +33,7 @@
                   </ul>
             </div>
         </nav>
-        <!--</div>-->
+        </div>
     </body>
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
