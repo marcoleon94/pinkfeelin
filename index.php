@@ -1,7 +1,7 @@
 <html>
-    <link rel=stylesheet href="css/materialize.min.css">
 	<link rel=stylesheet href="css/materialize.css">
 	<link rel=stylesheet href="css/main.css">
+    <link rel="stylesheet" href="css/objfon.css">
  <head>
    <title>Hello World</title>
  </head>
@@ -37,7 +37,7 @@
                               <label class="left-align" for="email">Email</label>
                             </div>
                              <div>
-                             <button class="btn waves-effect waves-light" style="margin-top:30px; background-color:#f48fb1;" type="submit" name="action">Suscribete Ya!
+                             <button class="btn waves-effect waves-light" style="margin-top:30px;" type="submit" name="action">Suscribete Ya!
                                 <i class="material-icons right">send</i>
                               </button>
                              </div>
@@ -76,11 +76,11 @@
              </div>
              <div class="row">
                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="images/fav1.jpg"></a>
-                    <a class="carousel-item" href="#two!"><img src="images/fav2.jpg"></a>
-                    <a class="carousel-item" href="#three!"><img src="images/fav3.jpg"></a>
-                    <a class="carousel-item" href="#four!"><img src="images/fav4.jpg"></a>
-                    <a class="carousel-item" href="#five!"><img src="images/fav5.jpg"></a>
+                    <a class="carousel-item " href="#one!"><img class="materialboxed responsive-img initialized" src="images/fav1.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img class="materialboxed responsive-img initialized" src="images/fav2.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img class="materialboxed responsive-img initialized" src="images/fav3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img class="materialboxed responsive-img initialized" src="images/fav4.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img class="materialboxed responsive-img initialized" src="images/fav5.jpg"></a>
                   </div>
              </div>
          </div>
@@ -98,6 +98,9 @@
             padding:20,
             });
         });
+        $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
     </script>
  </body>
 </html>
