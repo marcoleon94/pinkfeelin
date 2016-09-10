@@ -4964,7 +4964,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #f8bbd0 ;
 }
 
 .btn-floating {
@@ -6876,7 +6876,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav a.btn:hover, .side-nav a.btn-large:hover, .side-nav a.btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #f8bbd0 ;
 }
 
 .side-nav a.btn-floating:hover {
@@ -8286,7 +8286,7 @@ input[type=range]:focus::-ms-fill-upper {
 .picker__day--selected.picker__day--outfocus,
 .picker__day--selected:hover.picker__day--outfocus,
 .picker--focused .picker__day--selected.picker__day--outfocus {
-  background-color: #a1ded8;
+  background-color: #f5b0c7;
 }
 
 .picker__footer {
