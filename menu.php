@@ -10,13 +10,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <div class="navbar-fixed">
+        <!--<div class="navbar-fixed">-->
         <nav class="pink lighten-3">
             <div class="nav-wrapper">
                  <a href="#!" class="left brand-logo"><img class="responsive-img" src="images/Lips.png" width="4%" height="4%"> Pink Feelin'</a>
                 <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
                   <div class="row hide-on-med-and-down">
-                      <div class="col push-s4 hoverable"><a href="login.php">Inicio</a></div>
+                      <div class="col push-s4 hoverable"><a href="index.php">Inicio</a></div>
                       <div class="col push-s4 hoverable"><a href="tienda.php">Tienda</a></div>
                       <div class="col push-s4 hoverable"><a href="ofertas.php">Ofertas</a></div>
                       <div class="col push-s4 hoverable" ><a href="contacto.php">Contáctanos</a></div>
@@ -33,7 +33,7 @@
                   </ul>
             </div>
         </nav>
-        </div>
+        <!--</div>-->
     </body>
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>

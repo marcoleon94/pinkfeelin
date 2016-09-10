@@ -3,7 +3,7 @@
 	<link rel=stylesheet href="css/main.css">
     <link rel="stylesheet" href="css/objfon.css">
  <head>
-   <title>Hello World</title>
+   <title>Pink Feelin'</title>
  </head>
  <body>
      <?php require('menu.php');?>
@@ -76,11 +76,11 @@
              </div>
              <div class="row">
                  <div class="carousel">
-                    <a class="carousel-item " href="#one!"><img class="materialboxed responsive-img initialized" src="images/fav1.jpg"></a>
-                    <a class="carousel-item" href="#two!"><img class="materialboxed responsive-img initialized" src="images/fav2.jpg"></a>
-                    <a class="carousel-item" href="#three!"><img class="materialboxed responsive-img initialized" src="images/fav3.jpg"></a>
-                    <a class="carousel-item" href="#four!"><img class="materialboxed responsive-img initialized" src="images/fav4.jpg"></a>
-                    <a class="carousel-item" href="#five!"><img class="materialboxed responsive-img initialized" src="images/fav5.jpg"></a>
+                    <a class="carousel-item " href="#one!"><img class="materialboxed responsive-img" src="images/fav1.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img class="materialboxed responsive-img" src="images/fav2.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img class="materialboxed responsive-img " src="images/fav3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img class="materialboxed responsive-img " src="images/fav4.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img class="materialboxed responsive-img " src="images/fav5.jpg"></a>
                   </div>
              </div>
          </div>
@@ -97,10 +97,14 @@
             shift:0,
             padding:20,
             });
+            autoplay()   
+            function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 4000);
+            }
+
         });
-        $(document).ready(function(){
-    $('.materialboxed').materialbox();
-  });
+        
     </script>
  </body>
 </html>
