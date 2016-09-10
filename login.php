@@ -4,66 +4,9 @@
 	<title>Login</title>
 	<link rel=stylesheet href="css/materialize.min.css">
 	<link rel=stylesheet href="css/materialize.css">
+	<link rel=stylesheet href="css/main.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<style>
-
-  /* label color */
-   .input-field label {
-     color: #9e9e9e;
-     font-style: italic;
-
-   }
-   /* label focus color */
-   .input-field input[type=text]:focus + label {
-     color: #f48fb1;
-     font-style: normal;
-   }
-
-   .input-field input[type=password]:focus + label {
-     color: #f48fb1;
-     font-style: normal;
-   }
-   /* label underline focus color */
-   .input-field input[type=text]:focus {
-     border-bottom: 1px solid #f48fb1;
-     box-shadow: 0 1px 0 0 #f48fb0;
-   }
-
-   .input-field input[type=password]:focus {
-     border-bottom: 1px solid #f48fb1;
-     box-shadow: 0 1px 0 0 #f48fb0;
-   }
-   /* valid color */
-   .input-field input[type=text].valid {
-     border-bottom: 1px solid #f48fb1;
-     box-shadow: 0 1px 0 0 #f48fb1;
-   }
-
-   .input-field input[type=password].valid {
-     border-bottom: 1px solid #f48fb1;
-     box-shadow: 0 1px 0 0 #f48fb1;
-   }
-   /* invalid color */
-   .input-field input[type=text].invalid {
-     border-bottom: 1px solid #f48fb1;
-     box-shadow: 0 1px 0 0 #f48fb1;
-   }
-
-   .input-field input[type=password].invalid {
-     border-bottom: 1px solid #f48fb1;
-     box-shadow: 0 1px 0 0 #f48fb1;
-   }
-   /* icon prefix focus color */
-   .input-field .prefix.active {
-     color: #f48fb1;
-   }
-
-
-   
-        
-
-</style>
 <body>
 <?php require('menu.php');?>
 
