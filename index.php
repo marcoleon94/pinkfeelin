@@ -64,12 +64,24 @@
                           <a class="btn waves-effect red white-text darken-text-2">Ofertas</a>
                         </div>
                         <div class="carousel-item black white-text" href="#one!">
-                            <h5 class="italic-text">Oferta de verano</h6>
-                            <h4>GRAN VENTA</h5>
-                            <h4>25% - 50% desc.</h5>
+                            <h5 class="italic-text">Oferta de verano</h5>
+                            <h4>GRAN VENTA</h4>
+                            <h4>25% - 50% desc.</h4>
                         </div>
                      </div>
                  </div>
+             </div>
+             <div class="row ">
+                 <h4 class="italic-text left-align">Nuestros Preferidos</h4>
+             </div>
+             <div class="row">
+                 <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="images/fav1.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="images/fav2.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="images/fav3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="images/fav4.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="images/fav5.jpg"></a>
+                  </div>
              </div>
          </div>
      </div>
@@ -80,6 +92,11 @@
     <script>
         $( document ).ready(function(){
             $('.carousel.carousel-slider').carousel({full_width: true});
+            $('.carousel').carousel({
+            dist:0,
+            shift:0,
+            padding:20,
+            });
         });
     </script>
  </body>
