@@ -43,7 +43,13 @@
             </div>
 
             <div class="input-field col s12">
-              <i class="material-icons prefix">account_circle</i>
+              <i class="material-icons prefix">location_on</i>
+                <input type="text" id="direccion" class="validate" >
+                <label for="direccion" class="left-align">Direccion</label>
+            </div>
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
                 <input type="text" id="email" class="validate" >
                 <label for="email" class="left-align">E-mail</label>
             </div>
@@ -59,13 +65,13 @@
 	        		<label for="contra" class="left-align" ">Contraseña</label>
 	        	</div>
             <div class="input-field col s6">
-              <i class="material-icons prefix">lock</i>
+              <i class="material-icons prefix">lock_outline</i>
               <input type="password" id="contrar" class="validate">
               <label for="contrar" class="left-align" ">Repetir Contraseña</label>
             </div>
 
             <div class="input-field col s6">
-              <i class="material-icons prefix">lock</i>              
+              <i class="material-icons prefix">today</i>              
               <input type="date" class="datepicker" id="fecha"> 
               <label for="fecha" class="left-align">Dia de Nacimiento</label>
             </div>

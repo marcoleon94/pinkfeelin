@@ -73,3 +73,19 @@
 }
 
 
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  padding: 0;
+  max-height: auto;
+  max-width: 400px;
+  margin: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 13px;
+  will-change: top, opacity;
+}
+
