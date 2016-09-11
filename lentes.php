@@ -1,5 +1,6 @@
 <?php
 require('menu.php');
+require('footer.php');
 ?>
 <html>
 	<link rel=stylesheet href="css/materialize.css">
@@ -9,7 +10,7 @@ require('menu.php');
    <title>Pink Feelin'</title>
  </head>
  <body>
-     <?php menu();?>
+     <?php menu("lentes.php");?>
      <div class="container">
          <div class="center">
             <h2>Lentes</h2>
@@ -39,7 +40,7 @@ require('menu.php');
      </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
-    
+    <?php footer(); ?>
     
     <script>
         $( document ).ready(function(){

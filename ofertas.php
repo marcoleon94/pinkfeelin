@@ -10,14 +10,14 @@ require('footer.php');
    <title>Pink Feelin'</title>
  </head>
  <body>
-     <?php menu("bolsas.php");?>
+     <?php menu("ofertas.php");?>
      <div class="container">
          <div class="center">
-            <h2>Las Bolsas De Moda</h2>
+            <h2>Ofertas</h2>
             <div class="divider"></div>
              <!-- Primera Sección-->
              <div class="row" style="margin:4%;">
-                 <?php for($x=1;$x<=9;$x++){ ?>
+                 <?php for($x=1;$x<=3;$x++){ ?>
                  <div class="col s4 m4">
                     <div class="card">
                         <div class="card-image">

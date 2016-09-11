@@ -1,3 +1,7 @@
+<?php
+require("menu.php");
+require("footer.php");
+?>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
@@ -10,7 +14,7 @@
     
 </head>
 <body>
-<?php require('menu.php');?>
+<?php menu();?>
 
 <div class="page-login">
 	<div class="center">
@@ -62,12 +66,12 @@
 	        	<div class="input-field col s6">
 	        		<i class="material-icons prefix">lock</i>
 	        		<input type="password" id="contra" class="validate">
-	        		<label for="contra" class="left-align" ">Contraseña</label>
+	        		<label for="contra" class="left-align" >Contraseña</label>
 	        	</div>
             <div class="input-field col s6">
               <i class="material-icons prefix">lock_outline</i>
               <input type="password" id="contrar" class="validate">
-              <label for="contrar" class="left-align" ">Repetir Contraseña</label>
+              <label for="contrar" class="left-align" >Repetir Contraseña</label>
             </div>
 
             <div class="input-field col s6">
@@ -100,37 +104,8 @@
 		</div>
 	</div>
 </div>
+<?php footer(); ?>
 
-<footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Pink Feelin'</h5>
-        <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-          </ul>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container">
-      © 2016 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-    </div>
-  </div>
-</footer>
 
 
   <script src="js/jquery.min.js"></script>
