@@ -1,5 +1,6 @@
 <?php 
 require("menu.php");
+require("footer.php")
 ?>
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -11,7 +12,7 @@ require("menu.php");
  </head>
  <body>
      <div class="menu">
-        <?php menu(); ?>
+        <?php menu("index.php"); ?>
      </div>
      <div class="container">
          <div class="center">
@@ -99,6 +100,7 @@ require("menu.php");
              </div>
          </div>
      </div>
+     <?php footer(); ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     

@@ -1,5 +1,5 @@
 <?php
-function menu(){ ?>
+function menu($page){ ?>
         <!-- Dropdown Structure -->
                     <ul id="dropdown1" class="dropdown-content">
                       <li><a href="vestidos.php">Vestidos</a></li>
@@ -16,12 +16,32 @@ function menu(){ ?>
                   <div class="row hide-on-med-and-down">
                       <div class="col push-s4">
                         <ul class="right hide-on-med-and-down">
-                          <li><a href="index.php">Inicio</a></li>
+                            <?php if($page=="index.php"){           ?>
+                                <li class="active"><a href="index.php">Inicio</a></li>
+                                <?php    }else{ ?>
+                                <li><a href="index.php">Inicio</a></li>
+                                <?php } ?>
                           <!-- Dropdown Trigger -->
-                          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tienda<i class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a href="ofertas.php">Ofertas</a></li>
-                            <li><a href="contacto.php">Contactanos</a></li>
-                            <li><a href="atencion.php">Atención al Cliente</a></li>
+                            <?php if($page=="vestidos.php" or $page=="bolsas.php" or $page=="lentes.php" or $page=="pdbelleza.php"){           ?>
+                                <li class="active"><a class="dropdown-button" href="#!" data-activates="dropdown1">Tienda<i class="material-icons right">arrow_drop_down</i></a></li>
+                                <?php    }else{ ?>
+                                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Tienda<i class="material-icons right">arrow_drop_down</i></a></li>
+                                <?php } ?>
+                             <?php if($page=="ofertas.php"){           ?>
+                                <li class="active"><a href="ofertas.php">Ofertas</a></li>
+                                <?php    }else{ ?>
+                                <li><a href="ofertas.php">Ofertas</a></li>
+                                <?php } ?>
+                             <?php if($page=="contacto.php"){           ?>
+                                <li class="active"><a href="contacto.php">Contactanos</a></li>
+                                <?php    }else{ ?>
+                                <li><a href="contacto.php">Contactanos</a></li>
+                                <?php } ?>
+                             <?php if($page=="atencion.php"){           ?>
+                                <li class="active"><a href="atencion.php">Atención al Cliente</a></li>
+                                <?php    }else{ ?>
+                                <li><a href="atencion.php">Atención al Cliente</a></li>
+                                <?php } ?>
                             <li><a data-target="modal1" class="modal-trigger">Login</a></li>
                         </ul>
                       </div>
@@ -65,7 +85,6 @@ function menu(){ ?>
         		</div> 
         	
         		<form>
-        		
 	        			<div class="row">
 	        				<div class="input-field col s12">
 	        					<i class="material-icons prefix">account_circle</i>
@@ -78,11 +97,16 @@ function menu(){ ?>
 	        					<input type="password" id="contra" class="validate">
 	        					<label for="contra" class="left-align" >Contraseña</label>
 	        				</div>
-	        				
-	        				<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px;">Iniciar Sesion
-    							<i class="material-icons right">input</i>
-  							</button>
-
+	        			</div>
+	        			<div class="row">
+	        				<div class="col s4" style="margin-top:50px;">
+	        					<a href="registro.php" style="color: #f48fb1;">Registrarse</a>
+	        				</div>
+	        				<div class="col s8">
+		        				<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px;">Iniciar Sesion
+	    							<i class="material-icons right">input</i>
+	  							</button>
+  							</div>
 	        			</div>
         		</form>
         
