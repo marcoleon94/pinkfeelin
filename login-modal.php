@@ -26,7 +26,6 @@
         		</div> 
         	
         		<form>
-        		
 	        			<div class="row">
 	        				<div class="input-field col s12">
 	        					<i class="material-icons prefix">account_circle</i>
@@ -39,11 +38,16 @@
 	        					<input type="password" id="contra" class="validate">
 	        					<label for="contra" class="left-align" >Contraseña</label>
 	        				</div>
-	        				
-	        				<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px;">Iniciar Sesion
-    							<i class="material-icons right">input</i>
-  							</button>
-
+	        			</div>
+	        			<div class="row">
+	        				<div class="col s4" style="margin-top:50px;">
+	        					<a href="#" style="color: #f48fb1;">Registrarse</a>
+	        				</div>
+	        				<div class="col s8">
+		        				<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px;">Iniciar Sesion
+	    							<i class="material-icons right">input</i>
+	  							</button>
+  							</div>
 	        			</div>
         		</form>
         
