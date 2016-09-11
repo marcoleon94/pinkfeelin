@@ -9,10 +9,10 @@ require('menu.php');
    <title>Pink Feelin'</title>
  </head>
  <body>
-     <?php menu(); ?>
+     <?php menu();?>
      <div class="container">
          <div class="center">
-            <h2>Los Mejores Vestidos</h2>
+            <h2>Lentes</h2>
             <div class="divider"></div>
              <!-- Primera Sección-->
              <div class="row" style="margin:4%;">
@@ -20,13 +20,13 @@ require('menu.php');
                  <div class="col s4 m4">
                     <div class="card">
                         <div class="card-image">
-                          <img class="responsirve-img materialboxed" src="images/vestido.jpg">
-                          <span class="card-title"><?php echo "Vestido $x"; ?></span>
+                          <img class="responsirve-img materialboxed" src="images/lentes.jpg">
+                          <span class="card-title"><?php echo "Lentes $x"; ?></span>
                         </div>
                         <div class="card-content pink lighten-2">
-                          <p>Modelo unitalla. 
-                              Vestido negro floreado.
-                                $450 MNX.</p>
+                          <p>Lentes obscuros.
+                              Café.
+                                $200 MNX.</p>
                         </div>
                         <div class="card-action pink darken-4">
                           <a href="#">Añadir a tu carrito</a>
@@ -43,11 +43,9 @@ require('menu.php');
     
     <script>
         $( document ).ready(function(){
-         $(".dropdown-button").dropdown();
+        $(".dropdown-button").dropdown();
         $(".button-collapse").sideNav();
         $('.modal-trigger').leanModal();
-            
-
         });
         
     </script>

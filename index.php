@@ -1,4 +1,8 @@
+<?php 
+require("menu.php");
+?>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel=stylesheet href="css/materialize.css">
 	<link rel=stylesheet href="css/main.css">
     <link rel="stylesheet" href="css/objfon.css">
@@ -6,7 +10,9 @@
    <title>Pink Feelin'</title>
  </head>
  <body>
-     <?php require('menu.php');?>
+     <div class="menu">
+        <?php menu(); ?>
+     </div>
      <div class="container">
          <div class="center">
             <h2>El Detalle Perfecto</h2>
@@ -15,12 +21,14 @@
              <div class="row" style="margin:4%;">
                  <!-- Sección para collage de imagenes -->
                  <div class="col s9">
+                     <p align="justify">
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum lectus sit amet accumsan auctor. Fusce vel nunc rutrum, posuere magna vitae, iaculis velit. Mauris nec risus sodales, ullamcorper tortor quis, interdum ipsum. Vestibulum pulvinar fringilla ultrices. Etiam efficitur, purus ac consectetur rutrum, libero purus laoreet odio, in rhoncus erat purus id dolor. Aliquam auctor nulla eget pretium pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque at pulvinar dui, non egestas dolor. Praesent pretium est metus, sit amet tincidunt enim congue eu. Vivamus pharetra purus eget orci posuere, ac maximus dolor ornare. Duis vitae semper elit, in dictum urna. Nunc vitae metus lacus. Suspendisse quis est fringilla, posuere turpis non, cursus tortor. Fusce venenatis non justo sit amet vehicula. Maecenas vel justo ut turpis luctus ornare. Phasellus ullamcorper egestas dolor, in sollicitudin odio.
+                    </p>
                  </div>
                  <!-- Sección para inscripción al correo -->
                  <div class="col s3"> 
                      <h3  class="thin">Accesosrios </h3><h3 class="bold">Y ROPA</h3>
-                     <p >
+                     <p align="justify">
                         Párrafo. Haz clic aquí para agregar tu propio texto y editar.
                         Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.
                      </p>
@@ -32,7 +40,7 @@
                      <a href="https://twitter.com/"><img class="responsive-img" src="images/twitter.png" height="15%" width="15%"></a>
                      </div>
                      <div class="divider"></div>
-                     <h5 class="thin">Recibie noticias de nuestras ofertas y nuestra nueva mercancía:</h5>
+                     <h5 class="thin" align="justify">Recibie noticias de nuestras exclusivas ofertas y nuestra nueva mercancía:</h5>
                      <form>
                          <div class="row">
                             <div class="input-field col s12">
@@ -55,7 +63,7 @@
                  </div>
                  <div class="col s1 headerDivider"></div>
                  <div class="col s6 ">
-                 <p >Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.</p>
+                 <p align="justify">Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.</p>
                  </div>
              </div>
              <!--Tercera Sección-->
@@ -97,12 +105,16 @@
     
     <script>
         $( document ).ready(function(){
+            $(".dropdown-button").dropdown();
+            $(".button-collapse").sideNav();
+            $('.modal-trigger').leanModal();
             $('.carousel.carousel-slider').carousel({full_width: true});
             $('.carousel').carousel({
             dist:0,
             shift:0,
             padding:20,
             });
+            $(".dropdown-button").dropdown();
             autoplay()   
             function autoplay() {
             $('#favoritos').carousel('next');

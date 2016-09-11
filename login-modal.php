@@ -37,7 +37,7 @@
 	        				<div class="input-field col s12">
 	        					<i class="material-icons prefix">lock</i>
 	        					<input type="password" id="contra" class="validate">
-	        					<label for="contra" class="left-align" ">Contraseña</label>
+	        					<label for="contra" class="left-align" >Contraseña</label>
 	        				</div>
 	        				
 	        				<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px;">Iniciar Sesion
