@@ -11,10 +11,13 @@
          <div class="center">
             <h2>El Detalle Perfecto</h2>
             <div class="divider"></div>
+             <!-- Primera Sección-->
              <div class="row" style="margin:4%;">
+                 <!-- Sección para collage de imagenes -->
                  <div class="col s9">
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum lectus sit amet accumsan auctor. Fusce vel nunc rutrum, posuere magna vitae, iaculis velit. Mauris nec risus sodales, ullamcorper tortor quis, interdum ipsum. Vestibulum pulvinar fringilla ultrices. Etiam efficitur, purus ac consectetur rutrum, libero purus laoreet odio, in rhoncus erat purus id dolor. Aliquam auctor nulla eget pretium pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque at pulvinar dui, non egestas dolor. Praesent pretium est metus, sit amet tincidunt enim congue eu. Vivamus pharetra purus eget orci posuere, ac maximus dolor ornare. Duis vitae semper elit, in dictum urna. Nunc vitae metus lacus. Suspendisse quis est fringilla, posuere turpis non, cursus tortor. Fusce venenatis non justo sit amet vehicula. Maecenas vel justo ut turpis luctus ornare. Phasellus ullamcorper egestas dolor, in sollicitudin odio.
                  </div>
+                 <!-- Sección para inscripción al correo -->
                  <div class="col s3"> 
                      <h3  class="thin">Accesosrios </h3><h3 class="bold">Y ROPA</h3>
                      <p >
@@ -45,6 +48,7 @@
                      </form>
                  </div>
              </div>
+             <!--Segunda Sección-->
              <div class="row" style="margin:4%;">
                 <div class="col s5">
                     <h4 class="bold">Todo lo que necesitas para actualizar tu look.</h4>
@@ -54,6 +58,7 @@
                  <p >Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.</p>
                  </div>
              </div>
+             <!--Tercera Sección-->
              <div class="row">
                  <div class="col s9">
                      <img class="responsive-img" src="images/ofertas.jpg">
@@ -71,11 +76,12 @@
                      </div>
                  </div>
              </div>
+             <!-- Cuarta Sección-->
              <div class="row ">
                  <h4 class="italic-text left-align">Nuestros Preferidos</h4>
              </div>
              <div class="row">
-                 <div class="carousel">
+                 <div id="favoritos" class="carousel">
                     <a class="carousel-item " href="#one!"><img class="materialboxed responsive-img" src="images/fav1.jpg"></a>
                     <a class="carousel-item" href="#two!"><img class="materialboxed responsive-img" src="images/fav2.jpg"></a>
                     <a class="carousel-item" href="#three!"><img class="materialboxed responsive-img " src="images/fav3.jpg"></a>
@@ -99,7 +105,7 @@
             });
             autoplay()   
             function autoplay() {
-            $('.carousel').carousel('next');
+            $('#favoritos').carousel('next');
             setTimeout(autoplay, 4000);
             }
 

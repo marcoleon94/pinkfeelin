@@ -10,6 +10,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="vestidos.php">Vestidos</a></li>
+          <li><a href="#!">Bolsas</a></li>
+          <li><a href="#!">Lentes</a></li>
+          <li><a href="#!">Productos de Belleza</a></li>
+        </ul>
         <!--<div class="navbar-fixed">-->
         <nav class="pink lighten-3">
             <div class="nav-wrapper">
@@ -17,14 +24,14 @@
                 <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
                   <div class="row hide-on-med-and-down">
                       <div class="col push-s4 hoverable"><a href="index.php">Inicio</a></div>
-                      <div class="col push-s4 hoverable"><a href="tienda.php">Tienda</a></div>
+                      <div class="col push-s4 hoverable"><a class="dropdown-button" href="#!" data-activates="dropdown1">Tienda<i class="material-icons right">arrow_drop_down</i></a></div>
                       <div class="col push-s4 hoverable"><a href="ofertas.php">Ofertas</a></div>
                       <div class="col push-s4 hoverable" ><a href="contacto.php">Contáctanos</a></div>
                       <div class="col push-s4 hoverable"><a href="atencion.php">Atención al Cliente</a></div>
                       <div class="col push-s4 hoverable"><a href="login.php">Login</a></div>
                     </div>
                   <ul class="side-nav" id="nav-mobile">
-                    <li><a href="login.php">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li><a href="tienda.php">Tienda</a></li>
                     <li><a href="ofertas.php">Ofertas</a></li>
                     <li><a href="contacto.php">Contáctanos</a></li>
@@ -42,6 +49,7 @@
     <script>
         $( document ).ready(function(){
             $(".button-collapse").sideNav();
+            $(".dropdown-button").dropdown();
         });
     </script>    
 </html>
