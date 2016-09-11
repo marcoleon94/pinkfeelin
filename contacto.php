@@ -11,7 +11,7 @@ require("footer.php");
  </head>
  <body>
     <div class="menu">
-        <?php menu(); ?>
+        <?php menu("contacto.php"); ?>
     </div>
      <div class="container">
          <div class="center">
