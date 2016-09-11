@@ -29,7 +29,7 @@ require("footer.php");
                             </div> 
                         </div>
                 
-                        <div class="card-content" style="padding-left: 30px; padding-right: 30px;">
+                        <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 250px;">
                                 <div class="row"><p>Contactanos en cualquiera de las siguientes redes sociales.</p></div>
                                     <div class="row" >
                                          <a href="https://www.facebook.com/PinkFeelin/"><img class="responsive-img" src="images/facebook.png" height="15%" width="15%"></a>
@@ -53,12 +53,12 @@ require("footer.php");
                             </div> 
                         </div>
                 
-                        <div class="card-content" style="padding-left: 30px; padding-right: 30px;">
-                                <div class="row"><h4 class=" thin" style="font-style:italic; text-align:center;"></h4></div>
-                                <div class="row"><p>Telefono: 449-192-17-27 <br>
-                                        Horarios: lunes a viernes de 8am a 6pm <br>
-                                        e-mail:pinkfeelin@gmail.com
-                                     </p></div>
+                        <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 250px;">
+                                <div class="row">
+                                    <label>Telefono: </label><label> 449-192-17-27</label> <br>
+                                    <label>lunes a viernes: </label><label>8am - 6pm </label><br> <br>
+                                    <label>E-mail: </label><label>e-mail:pinkfeelin@gmail.com</label>
+                                </div>
                         </div>
                     </div>
                  </div>
@@ -74,11 +74,12 @@ require("footer.php");
                                 </div> 
                             </div>
                     
-                            <div class="card-content" style="padding-left: 30px; padding-right: 30px;">
-                                    <div class="row"><p>Local 1: Del Carmen 420-422, Colonia del Carmen, Aguascalientes, Ags.<br> <br>
-                                        Local 2: Río Pirules 252, San Pablo, Aguascalientes, Ags.<br> <br>
-                                        Local 3: General José María Arteaga 647, Primavera, Aguascalientes, Ags.<br>
-                                    </p></div>
+                            <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 250px;">
+                                    <div class="row">
+                                        <label>Local 1: </label><label>Del Carmen 420-422, Colonia del Carmen, Aguascalientes, Ags.</label><br> <br>
+                                        <label>Local 2: </label><label>Río Pirules 252, San Pablo, Aguascalientes, Ags.</label><br> <br>
+                                        <label>Local 3: </label><label>General José María Arteaga 647, Primavera, Aguascalientes, Ags.</label>
+                                    </div>
                             </div>
                     </div>
                 </div>
