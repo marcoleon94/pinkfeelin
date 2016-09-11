@@ -10,24 +10,21 @@
 <body>
 <?php require('menu.php');?>
 
-<!--<button data-target="modal1" class="btn modal-trigger">modal</button>
+<button data-target="modal1" class="btn modal-trigger">modal</button>
 <div class="modal" id="modal1">
-<div class="modal-content"> -->
+<div class="modal-content">
 <div class="page-login">
 	<div class="center">
-		<div class="card bordered" style="margin:5% auto; max-width:400px; border-radius: 13px;">
-			<div class="card-header" style="background-color: #f48fb1; color: white; border-top-left-radius: 13px; border-top-right-radius: 13px;">
+		
            		<div class="row">	
-          			<div class="col s2" style="margin-top: 5px;">
-              			<i class="material-icons medium white-text">perm_identity</i>
+          			<div class="col s2">
+              			<i class="material-icons medium" style="color:#f48fb1;">perm_identity</i>
           			</div>
-          			<div class="col s10 left-align">
+          			<div class="col s10 left-align" style="margin-top:15px; color:#f48fb1;">
             			<h4>Inicia Sesion</h4>
           			</div>
         		</div> 
-        	</div>
         	
-        	<div class="card-content">
         		<form>
         		
 	        			<div class="row">
@@ -49,8 +46,8 @@
 
 	        			</div>
         		</form>
-        	</div>
-		</div>
+        
+		
 	</div>
 </div>
 </div>
