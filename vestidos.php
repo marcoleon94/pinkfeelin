@@ -30,7 +30,11 @@ require('footer.php');
                                 $450 MNX.</p>
                         </div>
                         <div class="card-action pink darken-4">
+                            <?php if($x%3==0){?>
+                            <a href="#">Añadir a tu carrito<span class="new badge" data-badge-caption="Oferta"></span></a>
+                            <?php }else{ ?>
                           <a href="#">Añadir a tu carrito</a>
+                            <?php } ?>
                         </div>
                       </div>
                  </div> 
