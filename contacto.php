@@ -89,71 +89,86 @@ require("footer.php");
                             </div>
                     </div>
                 </div>
-                <div id="map" style="width:100%;height:500px"></div>
+                
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card bordered" style=" border-radius: 13px;">
+                            <div class="card-header" style="background-color: #f48fb1; color: white; border-top-left-radius: 13px; border-top-right-radius: 13px; padding-left: 10px;">
+                                <div class="row">   
+                                    <div class="col s12 left-align">
+                                        <h5>Localízanos</h5>
+                                    </div>
+                                </div> 
+                            </div>
+                    
+                            <div class="card-content">
+                                    <div id="map" style="width:100%;height:500px"></div>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
 <div class="modal" id="modal1">
-<div class="modal-content">
-<div class="page-login">
-    <div class="center">
-        
-                <div class="row">   
-                    <div class="col s2">
-                        <i class="material-icons medium" style="color:#f48fb1;">mode_edit</i>
-                    </div>
-                    <div class="col s10 left-align" style="margin-top:15px; color:#f48fb1;">
-                        <h4>Sugerencia</h4>
-                    </div>
-                </div> 
-            
-                <form>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">account_circle</i>
-                                <input type="text" id="usuario" class="validate" >
-                                <label for="usuario" class="left-align"> Usuario</label>
+    <div class="modal-content">
+        <div class="page-login">
+            <div class="center">
+                
+                        <div class="row">   
+                            <div class="col s2">
+                                <i class="material-icons medium" style="color:#f48fb1;">mode_edit</i>
                             </div>
-
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">lock</i>
-                                <input type="password" id="contra" class="validate">
-                                <label for="contra" class="left-align" >Contraseña</label>
+                            <div class="col s10 left-align" style="margin-top:15px; color:#f48fb1;">
+                                <h4>Sugerir</h4>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col s4" style="margin-top:50px;">
-                                <a href="#" style="color: #f48fb1;">Registrarse</a>
-                            </div>
-                            <div class="col s8">
-                                <button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px;">Iniciar Sesion
-                                    <i class="material-icons right">input</i>
-                                </button>
-                            </div>
-                        </div>
-                </form>
+                        </div> 
+                    
+                        <form>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                      <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                      <label for="icon_prefix2">Sugerencia</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <button class="btn waves-effect waves-light right" type="submit" name="action" style="margin-top:30px;">Enviar
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </div>
+                        </form>
+            </div>
+        </div>
     </div>
-</div>
-</div>
 </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
 
     <script>
-        function myMap() {
-          var mapCanvas = document.getElementById("map");
-          var mapOptions = {
-            center: new google.maps.LatLng(21.8833, -102.3),
-            zoom: 15
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-        }
+            function myMap() {
+              var myCenter = new google.maps.LatLng(21.8833,-102.3);
+              var myCenter1 = new google.maps.LatLng(21.883570,-102.310314);
+              var myCenter2 = new google.maps.LatLng(21.890419,-102.285466);
+              var mapCanvas = document.getElementById("map");
+              var mapProp = {center: myCenter, zoom: 15};
+              var map = new google.maps.Map(mapCanvas, mapProp);
+              var marker = new google.maps.Marker({position:myCenter, animation: google.maps.Animation.BOUNCE});
+              var marker1 = new google.maps.Marker({position:myCenter1, animation: google.maps.Animation.BOUNCE});
+              var marker2 = new google.maps.Marker({position:myCenter2, animation: google.maps.Animation.BOUNCE});
+              marker.setMap(map);
+              marker1.setMap(map);
+              marker2.setMap(map);
+          }
         </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+
     
     <div class="footer">
         <?php footer(); ?>
