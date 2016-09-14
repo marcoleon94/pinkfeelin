@@ -8,7 +8,7 @@ require("footer.php");
     <link rel="stylesheet" href="css/objfon.css">
  <head>
     <meta charset="UTF-8">
-    <title>Atencion al Cliente</title>
+    <title>Atención al Cliente</title>
  </head>
  <body>
     <div class="menu">

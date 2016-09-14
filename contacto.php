@@ -16,7 +16,7 @@ require("footer.php");
     </div>
      <div class="container">
          <div class="center">
-            <h2>Contactanos</h2>
+            <h2>Contáctanos</h2>
             <div class="divider"></div>
              <!--Segunda Sección-->
              <div class="row" style="margin:4%; text-align:left;">
@@ -31,7 +31,7 @@ require("footer.php");
                         </div>
                 
                         <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
-                                <div class="row"><p>Contactanos en cualquiera de las siguientes redes sociales.</p></div>
+                                <div class="row"><p>Contáctanos en cualquiera de las siguientes redes sociales.</p></div>
                                     <div class="row" > <br> <br> <br>
                                          <a href="https://www.facebook.com/PinkFeelin/"><img class="responsive-img" src="images/facebook.png" height="15%" width="15%"></a>
                                          <a href="https://plus.google.com/"><img class="responsive-img" src="images/googleplus.png" height="15%" width="15%"></a>
