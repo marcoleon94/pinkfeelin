@@ -123,11 +123,11 @@ require("footer.php")
              </div>
              <div class="row">
                  <div id="favoritos" class="carousel">
-                    <a class="carousel-item " href="#one!"><img class="materialboxed responsive-img" src="images/fav1.jpg"></a>
-                    <a class="carousel-item" href="#two!"><img class="materialboxed responsive-img" src="images/fav2.jpg"></a>
-                    <a class="carousel-item" href="#three!"><img class="materialboxed responsive-img " src="images/fav3.jpg"></a>
-                    <a class="carousel-item" href="#four!"><img class="materialboxed responsive-img " src="images/fav4.jpg"></a>
-                    <a class="carousel-item" href="#five!"><img class="materialboxed responsive-img " src="images/fav5.jpg"></a>
+                    <a class="carousel-item " href="articulo.php" ><img class="responsive-img" src="images/fav1.jpg"></a>
+                    <a class="carousel-item" href="articulo.php" ><img class="responsive-img" src="images/fav2.jpg"></a>
+                    <a class="carousel-item" href="articulo.php" ><img class="responsive-img " src="images/fav3.jpg"></a>
+                    <a class="carousel-item" href="articulo.php" ><img class="responsive-img " src="images/fav4.jpg"></a>
+                    <a class="carousel-item" href="articulo.php" ><img class="responsive-img " src="images/fav5.jpg"></a>
                   </div>
              </div>
          </div>

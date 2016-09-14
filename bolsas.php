@@ -21,7 +21,7 @@ require('footer.php');
                  <div class="col s4 m4">
                     <div class="card">
                         <div class="card-image">
-                          <img class="responsirve-img materialboxed" src="images/bolsa.jpg">
+                          <a href="articulo.php"><img class="responsirve-img" src="images/bolsa.jpg."></a>
                           <span class="card-title"><?php echo "Bolsa $x"; ?></span>
                         </div>
                         <div class="card-content pink lighten-2">
