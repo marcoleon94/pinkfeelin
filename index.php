@@ -22,9 +22,40 @@ require("footer.php")
              <div class="row" style="margin:4%;">
                  <!-- Sección para collage de imagenes -->
                  <div class="col s9">
-                     <p align="justify">
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum lectus sit amet accumsan auctor. Fusce vel nunc rutrum, posuere magna vitae, iaculis velit. Mauris nec risus sodales, ullamcorper tortor quis, interdum ipsum. Vestibulum pulvinar fringilla ultrices. Etiam efficitur, purus ac consectetur rutrum, libero purus laoreet odio, in rhoncus erat purus id dolor. Aliquam auctor nulla eget pretium pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque at pulvinar dui, non egestas dolor. Praesent pretium est metus, sit amet tincidunt enim congue eu. Vivamus pharetra purus eget orci posuere, ac maximus dolor ornare. Duis vitae semper elit, in dictum urna. Nunc vitae metus lacus. Suspendisse quis est fringilla, posuere turpis non, cursus tortor. Fusce venenatis non justo sit amet vehicula. Maecenas vel justo ut turpis luctus ornare. Phasellus ullamcorper egestas dolor, in sollicitudin odio.
-                    </p>
+                     <div class="row">
+                        <div class="col s3" style="margin:5px">
+                            <img src="images/ring.jpg" class="responsive-img">
+                         </div>
+                         <div class="col s6">
+                            <img src="images/accesories2.jpg" class="responsive-img">
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col s3" >
+                            <img src="images/bag.jpg" class="responsive-img">
+                         </div>
+                         <div class="col s3">
+                             <a href="vestidos.php" class="btn waves-effect red white-text darken-text-2">Ver ahora</a>
+                         </div>
+                         
+                          <div class="col s3" >
+                            <img src="images/shoes.jpg" class="responsive-img">
+                         </div>
+                        </div>
+                     <div class="row">
+                          <div class="col s3" >
+                            <img src="images/shoes.jpg" class="responsive-img">
+                         </div>
+                         
+                          <div class="col s3" >
+                            <img src="images/shoes.jpg" class="responsive-img">
+                         </div>
+                        
+                          <div class="col s3" >
+                            <img src="images/shoes.jpg" class="responsive-img">
+                         </div>
+                        </div>
+                     
                  </div>
                  <!-- Sección para inscripción al correo -->
                  <div class="col s3"> 
