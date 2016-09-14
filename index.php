@@ -28,7 +28,7 @@ require("footer.php")
                  </div>
                  <!-- Sección para inscripción al correo -->
                  <div class="col s3"> 
-                     <h3  class="thin">Accesosrios </h3><h3 class="bold">Y ROPA</h3>
+                     <h3  class="thin">Accesorios </h3><h3 class="bold">y ROPA</h3>
                      <p align="justify">
                         Párrafo. Haz clic aquí para agregar tu propio texto y editar.
                         Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.
@@ -44,13 +44,9 @@ require("footer.php")
                      <h5 class="thin" align="justify">Recibie noticias de nuestras exclusivas ofertas y nuestra nueva mercancía:</h5>
                      <form>
                          <div class="row">
-                            <div class="input-field col s12">
-                              <input id="email" type="email" class="validate">
-                              <label class="left-align" for="email">Email</label>
-                            </div>
                              <div>
-                             <button class="btn waves-effect waves-light" style="margin-top:30px;" type="submit" name="action">Suscribete Ya!
-                                <i class="material-icons right">send</i>
+                             <button class="btn waves-effect waves-light" style="margin-top:30px;" type="submit" name="action">Registrate Ya!
+                                <i class="material-icons right">mode_edit</i>
                               </button>
                              </div>
                           </div>
@@ -87,7 +83,7 @@ require("footer.php")
              </div>
              <!-- Cuarta Sección-->
              <div class="row ">
-                 <h4 class="italic-text left-align">Nuestros Preferidos</h4>
+                 <h4 class="italic-text left-align" style="color:#f06292;">Nuestros Preferidos</h4>
              </div>
              <div class="row">
                  <div id="favoritos" class="carousel">

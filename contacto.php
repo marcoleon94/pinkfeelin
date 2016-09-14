@@ -61,7 +61,7 @@ require("footer.php");
                                     <p>E-mail: </p><p>pinkfeelin@gmail.com</p>
                                 </div>
                                 <div class="row">
-                                    <button data-target="modal1" class="btn modal-trigger" type="submit" name="action" style="margin-top:10px;margin-left: 40px;">Sugerencias
+                                    <button data-target="modal3" class="btn modal-trigger" type="submit" name="action" style="margin-top:10px;margin-left: 40px;">Sugerencias
                                         <i class="material-icons right">mode_edit</i>
                                     </button>
                                 </div>          
@@ -112,7 +112,7 @@ require("footer.php");
     </div>
 
 
-<div class="modal" id="modal1">
+<div class="modal" id="modal3">
     <div class="modal-content">
         <div class="page-login">
             <div class="center">
@@ -148,7 +148,7 @@ require("footer.php");
 
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
-
+    
     <script>
             function myMap() {
               var myCenter = new google.maps.LatLng(21.8833,-102.3);
@@ -166,7 +166,8 @@ require("footer.php");
           }
         </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyADpZK_84nLc2YEQKAwFyX1__uB_aMqks8" type="text/javascript"></script>
+
 
 
     
