@@ -10,7 +10,7 @@ function menu($page){ ?>
         <!--<div class="navbar-fixed">-->
         <nav class="pink lighten-3">
             <div class="nav-wrapper">
-                 <a href="#!" class="left brand-logo strong"><img class="responsive-img" src="images/Lips.png" width="70" height="70"> Pink Feelin'</a>
+                 <a href="index.php" class="left brand-logo strong"><img class="responsive-img" src="images/Lips.png" width="70" height="70"> Pink Feelin'</a>
                 <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
                   <div class="row hide-on-med-and-down">
                       <div class="col push-s4">

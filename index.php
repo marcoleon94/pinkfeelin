@@ -71,11 +71,16 @@ require("footer.php")
                  <div class="col s3">
                     <div class="carousel carousel-slider " data-indicators="true">
                         <div class="carousel-fixed-item center">
-                          <a class="btn waves-effect red white-text darken-text-2">Ofertas</a>
+                          <a href="ofertas.php" class="btn waves-effect red white-text darken-text-2">Ofertas</a>
                         </div>
                         <div class="carousel-item black white-text" href="#one!">
                             <h5 class="italic-text">Oferta de verano</h5>
                             <h4>GRAN VENTA</h4>
+                            <h4>25% - 50% desc.</h4>
+                        </div>
+                        <div class="carousel-item pink darken-2 white-text" href="#two!">
+                            <h5 class="italic-text">Compra por Internet</h5>
+                            <h4>Antes de que se acaben las ofertas</h4>
                             <h4>25% - 50% desc.</h4>
                         </div>
                      </div>
