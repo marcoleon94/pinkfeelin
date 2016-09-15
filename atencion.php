@@ -32,18 +32,30 @@ require("footer.php");
                 
                         <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
                                 <div class="row">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p>El grupo empresarial UAA a través de su empresa Pink Feelin' desarrolla prendas de ropa fashion de una calidad media cumpliendo las expectativas del cliente y aún excelente precio para las mujeres jóvenes y adultos. Nuestras tiendas se encuentran en la ciudad de Aguascalientes. Con una colección nueva cada dos semanas por nuestro excelente manejo en la parte logística de nuestra cadena de almacenes para así mantener a nuestros clientes frescos en el mundo de la moda.</p>
                                 </div>
                         </div>
                     </div>
                 </div>
-
-
+                  <div class="col s6 ">
+                    <div class="card bordered" style="margin:5% auto; border-radius: 13px;">
+                            <div class="card-header" style="background-color: #f48fb1; color: white; border-top-left-radius: 13px; border-top-right-radius: 13px; padding-left: 10px;">
+                                <div class="row">   
+                                    <div class="col s12 left-align">
+                                        <h5>Vision</h5>
+                                    </div>
+                                </div> 
+                            </div>
+                    
+                            <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
+                                    <div class="row">
+                                        <p>
+                                            Ser una empresa líder en la comercialización y distribución de prendas de vestir que puedan llegar a cualquier zona donde exista un nicho de clientes, para que puedan obtener los diferentes diseños y modas.
+                                        </p>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
                 <div class="col s6 ">
                     <div class="card bordered" style="margin:5% auto; border-radius: 13px;">
                         <div class="card-header" style="background-color: #f48fb1; color: white; border-top-left-radius: 13px; border-top-right-radius: 13px; padding-left: 10px;">
@@ -55,14 +67,17 @@ require("footer.php");
                         </div>
                 
                         <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
-                                <div class="row">
+                                <div class="row" align="justify">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        1. Cada vez que usa este sitio web estará bajo la aplicación de la política de privacidad y cookies vigente
+                                        en cada momento (en adelante, la Política de Privacidad y Cookies), debiendo revisar dicho texto para
+                                        comprobar que está conforme con él.
+                                    </p>
+                                    <p>
+                                        2. Los datos personales que nos aporta son nombre, apellidos, teléfono, correo electrónico, país, asunto,
+                                        tema, mensaje, secciones que le interesan y tipo de teléfono móvil que tiene serán objeto de tratamiento
+                                        en una base de datos responsabilidad de ITX México XXI, S.A. de C.V. (ITX México) cuyas finalidades
+                                        son de uso exclusivo para la empresa y no serán compartidas con ningún otra empresa.
                                     </p>
                                 </div>        
                         </div>
@@ -80,47 +95,23 @@ require("footer.php");
                                 </div> 
                             </div>
                     
-                            <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
-                                    <div class="row">
+                            <div class="card-content" style="padding-left: 30px; padding-right: 30px;">
+                                    <div class="row" align="justify">
+                                          <p>                            
+                                            Las prendas tienen que estar en perfecto estado y con su correspondiente ticket. No se podrán devolver ni cambiar los artículos de ropa interior, excepto los de la sección de bebé tallados de 0 a 36 meses. Ten en cuenta que antes de solicitar un reembolso, debes haber recibido la mercancía.</p>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            El plazo para cualquier devolución es de 1 mes a partir del email de confirmación de envío.
+                                        </p>
+                                        <p>
+                                            Tras aprobar la devolución (los artículos tienen que estar en perfecto estado y tener las etiquetas interiores) recibirás un email de confirmación indicándote que el importe se abonará en tu cuenta en unos días.
+                                        </p>
+                                        <p>
+                                            Pink Feelin' se reserva el derecho de rechazar devoluciones comunicadas o enviadas fuera del plazo fijado, o prendas que no se encuentren en las mismas condiciones en las que fueron recibidas.
                                         </p>
                                     </div>
                             </div>
                     </div>
                 </div>
-
-
-                <div class="col s6 ">
-                    <div class="card bordered" style="margin:5% auto; border-radius: 13px;">
-                            <div class="card-header" style="background-color: #f48fb1; color: white; border-top-left-radius: 13px; border-top-right-radius: 13px; padding-left: 10px;">
-                                <div class="row">   
-                                    <div class="col s12 left-align">
-                                        <h5>100% Seguridad</h5>
-                                    </div>
-                                </div> 
-                            </div>
-                    
-                            <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
-                                    <div class="row">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                        </p>
-                                    </div>
-                            </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </div>

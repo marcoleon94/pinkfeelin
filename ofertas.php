@@ -26,8 +26,9 @@ require('footer.php');
                         </div>
                         <div class="card-content pink lighten-2">
                           <p>Bolsa café.
-                              Con monedero.
-                                $450 MNX.</p>
+                              Con monedero.</p>
+                                <p style="text-decoration:line-through;">$450 MNX.</p>
+                               <p>$300</p>
                         </div>
                         <div class="card-action pink darken-4">
                           <a href="#">Añadir a tu carrito<span class="new badge" data-badge-caption="Oferta"></span></a>

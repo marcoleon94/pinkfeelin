@@ -75,8 +75,14 @@ require("footer.php")
                      <h5 class="thin" align="justify">Recibie noticias de nuestras exclusivas ofertas y nuestra nueva mercancía:</h5>
                      <form>
                          <div class="row">
+                            <div class="input-field col s12 pink-text">
+                              <input id="email" type="email" class="validate" >
+                              <label class="left-align" for="email">Email</label>
+                            </div>
+                          </div>
+                         <div class="row">
                              <div>
-                             <button class="btn waves-effect waves-light" style="margin-top:30px;" type="submit" name="action">Registrate Ya!
+                             <button class="btn waves-effect waves-light" style="margin-top:30px;" type="submit" name="action" required>Registrate Ya!
                                 <i class="material-icons right">mode_edit</i>
                               </button>
                              </div>
