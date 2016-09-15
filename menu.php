@@ -13,7 +13,7 @@ function menu($page){ ?>
                  <a href="index.php" class="left brand-logo strong"><img class="responsive-img" src="images/Lips.png" width="70" height="70"> Pink Feelin'</a>
                 <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
                   <div class="row hide-on-med-and-down">
-                      <div class="col push-s4">
+                      <div class="col push-s3 ">
                         <ul class="right hide-on-med-and-down">
                             <?php if($page=="index.php"){           ?>
                                 <li class="active"><a href="index.php">Inicio</a></li>
@@ -41,9 +41,13 @@ function menu($page){ ?>
                                 <?php    }else{ ?>
                                 <li><a href="atencion.php">Atención al Cliente</a></li>
                                 <?php } ?>
+                        </ul>
+                      </div>
+                      <div class="col push-s6">
+                        <ul class="right hide-on-med-and-down">
                             <li><a data-target="modal1" class="modal-trigger">Login</a></li>
                             <li><a data-target="modal2" class="modal-trigger"><i class="material-icons right">shopping_cart</i></a></li>
-                        </ul>
+                          </ul>
                       </div>
                     </div>
                   <ul class="side-nav" id="nav-mobile">
@@ -122,29 +126,11 @@ function menu($page){ ?>
           			<div class="col s10 left-align" style="margin-top:15px; color:#f48fb1;">
             			<h4>Carrito</h4>
           			</div>
-        		</div> 
-        		<form>
-	        			<div class="row">
-	        				<div class="input-field col s12">
-	        					<i class="material-icons prefix">account_circle</i>
-	        					<input type="text" id="usuario" class="validate" >
-	        					<label for="usuario" class="left-align"> Usuario</label>
-	        				</div>
-
-	        				<div class="input-field col s12">
-	        					<i class="material-icons prefix">lock</i>
-	        					<input type="password" id="contra" class="validate">
-	        					<label for="contra" class="left-align" >Contraseña</label>
-	        				</div>
-	        			</div>
-	        			<div class="row">
-	        				<div class="col s8">
-		        				<button class="btn waves-effect waves-red right" type="submit" name="action" style="margin-top:30px;">Iniciar Sesion
-	    							<i class="material-icons right">input</i>
-	  							</button>
-  							</div>
-	        			</div>
-        		</form>
+        		</div>
+                <div>
+                    <h3>En construcción</h3>
+                </div>
+        		
 	</div>
 </div>
 </div>

@@ -17,44 +17,57 @@ require('footer.php');
             <div class="divider"></div>
              <!-- Primera Sección-->
              <div class="row">
-                <div class="col s3 push-s3" style="margin: 1%;">
-                    <img class="materialboxed" src="images/vestido.jpg" />
-                </div> 
-             </div>
-             <div class="row">
-                 <div class="col s10 push-s1">
+                <div class="col s5" style="margin: 10px;">
+                    <img class="responsive-img materialboxed" src="images/vestido.jpg" />
+                </div>
+                 <div class="col s6">
                   <div class="card pink darken-2 ">
                     <div class="card-content white-text pink lighten-3">
                       <span class="card-title">Vestido X</span>
                       <p>Modelo unitalla. 
+                          <br>
                               Vestido negro floreado.
+                          <br>
                                 $450 MNX.</p>
+                        <div class="row">
+                            <div class="input-field col s3 push-s4">
+                            <select>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <label>Cantidad</label>
+                            </div>
+                            <div class="col s2 push-s4 ">
+                            <p>Disponibles: 4</p>
+                            </div>
+                          </div>
                     </div>
                     <div class="card-action">
                       <a href="#">Añadir a tu carrito</a>
                     </div>
-                  </div>
-                </div>       
-                    
-                  
+                  </div>       
+                </div>      
              </div>
          </div>
      </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
-     <!-- Lets load up prefixfree to handle CSS3 vendor prefixes -->
-     <script src="js/prefixfree.min.js" type="text/javascript"></script>
-     <!-- You can download it from http://leaverou.github.com/prefixfree/ -->
-
-     <!-- Time for jquery action ->
-     <script src="http://thecodeplayer.com/uploads/js/jquery-1.7.1.min.js" type="text/javascript"></script>-->
     <?php footer(); ?>
     
     <script>
         $( document ).ready(function(){
          $(".dropdown-button").dropdown();
         $(".button-collapse").sideNav();
-        $('.modal-trigger').leanModal();    
+        $('.modal-trigger').leanModal(); 
+        $('select').material_select();
 
         });
         

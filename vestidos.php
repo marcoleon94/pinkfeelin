@@ -26,8 +26,13 @@ require('footer.php');
                         </div>
                         <div class="card-content pink lighten-2">
                           <p>Modelo unitalla. 
-                              Vestido negro floreado.
-                                $450 MNX.</p>
+                              Vestido negro floreado.</p>
+                                <?php if($x%3==0) {?>
+                                <p style="text-decoration:line-through;">$450 MNX.</p>
+                                <p>$300</p>
+                            <?php } else{ ?>
+                                <p>$300</p>
+                            <?php } ?>
                         </div>
                         <div class="card-action pink darken-4">
                             <?php if($x%3==0){?>

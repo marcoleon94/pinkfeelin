@@ -31,7 +31,7 @@ require("footer.php");
                         </div>
                 
                         <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
-                                <div class="row"><p>Contáctanos en cualquiera de las siguientes redes sociales.</p></div>
+                                <div class="row"><p>Contáctanos y síguenos en cualquiera de las siguientes redes sociales.</p></div>
                                     <div class="row" > <br> <br> <br>
                                          <a href="https://www.facebook.com/PinkFeelin/"><img class="responsive-img" src="images/facebook.png" height="15%" width="15%"></a>
                                          <a href="https://plus.google.com/"><img class="responsive-img" src="images/googleplus.png" height="15%" width="15%"></a>
@@ -122,7 +122,7 @@ require("footer.php");
                                 <i class="material-icons medium" style="color:#f48fb1;">mode_edit</i>
                             </div>
                             <div class="col s10 left-align" style="margin-top:15px; color:#f48fb1;">
-                                <h4>Sugerir</h4>
+                                <h4>Mandanos tus Comentarios</h4>
                             </div>
                         </div> 
                     
@@ -130,7 +130,7 @@ require("footer.php");
                                 <div class="row">
                                     <div class="input-field col s12">
                                       <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                                      <label for="icon_prefix2">Sugerencia</label>
+                                      <label for="icon_prefix2">Comentarios</label>
                                     </div>
                                 </div>
                                 <div class="row">
