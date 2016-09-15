@@ -31,7 +31,7 @@ require("footer.php");
                         </div>
                 
                         <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
-                                <div class="row">
+                                <div class="row" align="justify">
                                     <p>El grupo empresarial UAA a través de su empresa Pink Feelin' desarrolla prendas de ropa fashion de una calidad media cumpliendo las expectativas del cliente y aún excelente precio para las mujeres jóvenes y adultos. Nuestras tiendas se encuentran en la ciudad de Aguascalientes. Con una colección nueva cada dos semanas por nuestro excelente manejo en la parte logística de nuestra cadena de almacenes para así mantener a nuestros clientes frescos en el mundo de la moda.</p>
                                 </div>
                         </div>
@@ -48,7 +48,7 @@ require("footer.php");
                             </div>
                     
                             <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
-                                    <div class="row">
+                                    <div class="row" align="justify">
                                         <p>
                                             Ser una empresa líder en la comercialización y distribución de prendas de vestir que puedan llegar a cualquier zona donde exista un nicho de clientes, para que puedan obtener los diferentes diseños y modas.
                                         </p>

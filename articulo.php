@@ -21,7 +21,7 @@ require('footer.php');
                     <img class="responsive-img materialboxed" src="images/vestido.jpg" />
                 </div>
                  <div class="col s6">
-                  <div class="card pink darken-2 ">
+                  <div class="card bordered pink darken-2 " style=" border-radius: 13px;">
                     <div class="card-content white-text pink lighten-3">
                       <span class="card-title">Vestido X</span>
                       <p>Modelo unitalla. 
