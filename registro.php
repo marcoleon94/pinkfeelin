@@ -25,7 +25,7 @@ require("footer.php");
               <i class="material-icons medium white-text">mode_edit</i>
           </div>
           <div class="col s11 left-align">
-            <h3>Registrate</h3>
+            <h3 style="color:white;">Registrate</h3>
           </div>
         </div>
       </div>
