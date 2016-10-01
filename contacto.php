@@ -30,7 +30,7 @@ require("footer.php");
                             </div> 
                         </div>
                 
-                        <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
+                        <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 350px;">
                                 <div class="row"><p>Contáctanos y síguenos en cualquiera de las siguientes redes sociales.</p></div>
                                     <div class="row" > <br> <br> <br>
                                          <a href="https://www.facebook.com/PinkFeelin/"><img class="responsive-img" src="images/facebook.png" height="15%" width="15%"></a>
@@ -54,14 +54,14 @@ require("footer.php");
                             </div> 
                         </div>
                 
-                        <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
+                        <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 350px;">
                                 <div class="row">
                                     <p>Telefono: </p><p>449-192-17-27</p> <br>
                                     <p>Lunes a Viernes: </p><p>8am - 6pm </p><br>
                                     <p>E-mail: </p><p>pinkfeelin@gmail.com</p>
                                 </div>
                                 <div class="row">
-                                    <button data-target="modal3" class="btn modal-trigger" type="submit" name="action" style="margin-top:10px;margin-left: 40px;">Sugerencias
+                                    <button data-target="modal3" class="btn modal-trigger" type="submit" name="action" style="margin-top:30px;margin-left: 60px;">Sugerencias
                                         <i class="material-icons right">mode_edit</i>
                                     </button>
                                 </div>          
@@ -80,7 +80,7 @@ require("footer.php");
                                 </div> 
                             </div>
                     
-                            <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 300px;">
+                            <div class="card-content" style="padding-left: 30px; padding-right: 30px; height: 350px;">
                                     <div class="row">
                                         <p>Local 1: </p><p>Del Carmen 420-422, Colonia del Carmen, Aguascalientes, Ags.</p><br>
                                         <p>Local 2: </p><p>Río Pirules 252, San Pablo, Aguascalientes, Ags.</p><br>
